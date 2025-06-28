@@ -101,15 +101,6 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-plugins:
-  - optimize:
-      enabled: true
-      optimize_png: true
-      optimize_jpg: true
-      optimize_svg: true
-      print_gain: true
-      print_gain_summary: true
-
 nav:
   - Home: index.md
   - Download: download.md
