@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Support
 
 If you have an issue or need support for Nuitka, here are your options:
