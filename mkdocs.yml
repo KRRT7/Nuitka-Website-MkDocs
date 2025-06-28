@@ -1,4 +1,4 @@
-site_name: Nuitka
+site_name: ""
 site_url: https://nuitka.net/
 site_description: Python Compiler
 site_author: Kay Hayen
@@ -45,7 +45,6 @@ theme:
 
 extra_css:
   - stylesheets/pinwheel.css
-  - stylesheets/custom-header.css
 
 extra:
   social:
@@ -102,15 +101,4 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-nav:
-  - Free Download:
-    - Download: download/index.md
-  - User Guide:
-    - Command Line: user-guide/command-line.md
-    - Options: user-guide/options.md
-  - Developer Guide:
-    - Contributing: developer-guide/contributing.md
-    - Architecture: developer-guide/architecture.md
-  - About:
-    - Release Notes: about/release-notes.md
-    - License: about/license.md
+# nav:
