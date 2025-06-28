@@ -9,10 +9,13 @@ Why is Nuitka named like this, and who do we thank for it.
 
 The most credits are deserved by my ever loving and forgiving wife, who bears with me for spending literally all my spare and other time thinking of Nuitka.
 
-!!! info "The Name Story"
-    Nuitka is short for Annuitka, which is the nickname of Kay's wife Anna who is Russian. As Kay once said on Twitter: "I one day made her the compiler as a gift. Much better name than 'Py2C', right?"
+See an image of her on Twitter and make her happy with donations and [Nuitka Commercial subscriptions](commercial.md)!
 
-See her image on social media and make her happy with donations and [Nuitka Commercial subscriptions](commercial.md)!
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">Nuitka is short for Annuitka, which is the nickname of my wife Anna who is Russian... here a recent shot with my son David.<br>I one day made her the compiler as a gift. Much better name than &quot;Py2C&quot;, right? <a href="https://t.co/9A3nod8CZ7">pic.twitter.com/9A3nod8CZ7</a></p>
+&mdash; Kay Hayen (@KayHayen) <a href="https://twitter.com/KayHayen/status/1028940741047930880?ref_src=twsrc%5Etfw">August 13, 2018</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## :material-account-group: Contributors to Nuitka
 
