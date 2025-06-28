@@ -59,24 +59,3 @@
     [:octicons-arrow-right-24: Go to Solutions](common-issue-solutions.md)
 
 </div>
-
-## Getting Started
-
-If you're new to Nuitka, we recommend starting with the **User Manual** to understand the fundamentals, then proceeding to the **Tutorial** for hands-on guidance.
-
-## Quick Reference
-
-For experienced users looking for specific information:
-
-- **Performance insights** → [Performance](performance.md)
-- **Optimization tips** → [Tips](tips.md)
-- **Troubleshooting** → [Common Issue Solutions](common-issue-solutions.md)
-- **Advanced configuration** → [Package Configuration](package-configuration.md)
-
-## Support
-
-Need help? Check out our:
-
-- [GitHub Issues](https://github.com/Nuitka/Nuitka/issues) for bug reports and feature requests
-- [Community discussions](https://github.com/Nuitka/Nuitka/discussions) for questions and help
-- Commercial support for priority assistance

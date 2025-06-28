@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Free Download
 
 !!! info "Thank you for downloading Nuitka"
