@@ -1,61 +1,120 @@
 # User Documentation
 
+!!! tip "New to Nuitka?"
+    Start with the **User Manual** to understand the fundamentals, then proceed to the **Tutorial** for hands-on guidance.
+
+## :material-rocket-launch: Getting Started
+
 <div class="grid cards" markdown>
 
 -   :material-book-open-page-variant:{ .lg .middle } **User Manual**
 
     ---
 
-    The recommended first read when you start using Nuitka. You will learn more about Nuitka fundamentals, such as requirements, tips, and credits.
+    **Essential reading** for new users. Learn about Nuitka fundamentals, requirements, installation, and core concepts.
 
-    [:octicons-arrow-right-24: Go to User Manual](user-manual.md)
+    [:octicons-arrow-right-24: Start Reading](user-manual.md){ .md-button .md-button--primary }
 
 -   :material-tools:{ .lg .middle } **Tutorial: Setup and Build**
 
     ---
 
-    Tutorial guides you through the setup and building process. Whether you're starting from scratch or already have some components installed, it will help you get up and running smoothly.
+    **Step-by-step guidance** through your first compilation. From installation to your first executable.
 
-    [:octicons-arrow-right-24: Go to Tutorial](tutorial-setup-and-build.md)
+    [:octicons-arrow-right-24: Start Tutorial](tutorial-setup-and-build.md){ .md-button .md-button--primary }
 
--   :material-lightbulb:{ .lg .middle } **Tips**
+</div>
 
-    ---
+## :material-cog: Optimization & Configuration
 
-    Helpful tips and techniques for optimizing your experience with Nuitka. From maximizing compilation efficiency to managing dependencies and runtime considerations.
+<div class="grid cards" markdown>
 
-    [:octicons-arrow-right-24: Go to Tips](tips.md)
-
--   :material-speedometer:{ .lg .middle } **Performance**
+-   :material-lightbulb:{ .lg .middle } **Tips & Best Practices**
 
     ---
 
-    An overview of what to expect in terms of performance from Nuitka.
+    Proven techniques for **maximizing compilation efficiency**, managing dependencies, and optimizing runtime performance.
 
-    [:octicons-arrow-right-24: Go to Performance](performance.md)
+    [:octicons-arrow-right-24: Learn Tips](tips.md){ .md-button }
 
--   :material-puzzle:{ .lg .middle } **Use Cases**
+-   :material-speedometer:{ .lg .middle } **Performance Guide**
 
     ---
 
-    Explore various scenarios where Nuitka proves to be a powerful tool for program compilation, module embedding, and distribution.
+    Understand **performance expectations** and how to measure and improve your application's speed.
 
-    [:octicons-arrow-right-24: Go to Use Cases](use-cases.md)
+    [:octicons-arrow-right-24: Check Performance](performance.md){ .md-button }
 
 -   :material-package-variant:{ .lg .middle } **Package Configuration**
 
     ---
 
-    An in-depth exploration of Nuitka's package configuration system, offering insights into its structure, documentation, features, and usage examples.
+    **Advanced configuration** system for extending Nuitka compatibility with third-party packages.
 
-    [:octicons-arrow-right-24: Go to Package Config](package-configuration.md)
+    [:octicons-arrow-right-24: Configure Packages](package-configuration.md){ .md-button }
 
--   :material-help-circle:{ .lg .middle } **Common Issue Solutions**
+</div>
+
+## :material-application: Use Cases & Examples
+
+=== "Desktop Applications"
+
+    Perfect for creating **standalone desktop applications** that users can run without Python installed.
+
+    - GUI applications (Tkinter, PyQt, PySide)
+    - Command-line tools
+    - System utilities
+
+=== "Web Applications"
+
+    Compile **web applications and services** for easier deployment and better performance.
+
+    - Flask/Django applications
+    - API services
+    - Microservices
+
+=== "Scientific Computing"
+
+    Accelerate **scientific and data processing** applications with significant performance gains.
+
+    - NumPy/SciPy applications
+    - Machine learning models
+    - Data analysis tools
+
+=== "Enterprise Solutions"
+
+    Deploy **enterprise applications** with IP protection and commercial support.
+
+    - Business applications
+    - Commercial software
+    - Proprietary algorithms
+
+[:octicons-arrow-right-24: Explore All Use Cases](use-cases.md){ .md-button }
+
+## :material-help-circle: Troubleshooting & Support
+
+!!! info "Need Help?"
+    Start with common solutions, then check our support channels if you need additional assistance.
+
+<div class="grid cards" markdown>
+
+-   :material-bug:{ .lg .middle } **Common Issues**
 
     ---
 
-    Solutions for issues commonly faced, should help to get you off the ground with typical scenarios.
+    **Quick solutions** for frequently encountered problems during compilation and execution.
 
-    [:octicons-arrow-right-24: Go to Solutions](common-issue-solutions.md)
+    [:octicons-arrow-right-24: Find Solutions](common-issue-solutions.md){ .md-button }
+
+-   :material-forum:{ .lg .middle } **Community Support**
+
+    ---
+
+    Get help from the **Nuitka community** through various support channels.
+
+    [:octicons-arrow-right-24: Get Support](support.md){ .md-button }
 
 </div>
+
+!!! success "Ready to Start?"
+    **[Begin with the User Manual](user-manual.md)** — it provides the foundation you need to use Nuitka effectively.
