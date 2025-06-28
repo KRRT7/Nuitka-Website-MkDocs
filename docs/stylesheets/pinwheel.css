@@ -1,0 +1,162 @@
+/* CSS for Nuitka-style pinwheel layout */
+
+:root {
+    --our-color-yellow: #ffd43b;
+    --our-color-blue: #599dd2;
+    --our-color-grey: #ccc;
+    --our-color-dark-blue: #2a3990;
+    --our-color-green: #00916e;
+}
+
+.fp-circle-card {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.fp-circle-text-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    width: 30ch;
+    min-width: 26ch;
+}
+
+.fp-circle-image-container {
+    flex-grow: 1;
+    container-type: inline-size;
+    position: relative;
+    max-width: 380px;
+    min-width: 24ch;
+}
+
+ol.fp-circle-text-list {
+    list-style: none !important;
+    margin-left: 0 !important;
+    padding-left: 0;
+    counter-reset: fp-circle-heading-item;
+}
+
+.fp-circle-text-list li {
+    list-style: none !important;
+    margin-left: 0 !important;
+    counter-increment: fp-circle-heading-item;
+    margin-bottom: 20px;
+}
+
+.fp-circle-text-list li::before {
+    margin-right: 10px;
+    content: counter(fp-circle-heading-item, upper-alpha);
+    background: var(--our-color-yellow);
+    border-radius: 100%;
+    color: white;
+    width: 1.8em;
+    height: 1.8em;
+    line-height: 1.8em;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.fp-circle-text-list li:nth-of-type(1)::before {
+    background: var(--our-color-yellow);
+}
+
+.fp-circle-text-list li:nth-of-type(2)::before {
+    background: var(--our-color-blue);
+}
+
+.fp-circle-text-list li:nth-of-type(3)::before {
+    background: var(--our-color-dark-blue);
+}
+
+.fp-circle-text-sub-heading {
+    margin-bottom: 6px;
+    margin-left: 5px !important;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
+.fp-circle-main-text-body {
+    padding-left: 5ch;
+    font-weight: normal;
+    margin: 0;
+    font-size: 0.75rem;
+    line-height: 1.3;
+}
+
+.fp-circle-image {
+    width: 100%;
+    height: auto;
+}
+
+.fp-circle-image-caption {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.fp-circle-image-caption p {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    font-size: 0.8rem;
+    font-size: 5.5cqw;
+    margin: 0;
+}
+
+.fp-circle-caption-ip-protection {
+    top: 49%;
+    left: 2%;
+}
+
+.fp-circle-image-caption-performance {
+    top: 25%;
+    left: 52%;
+}
+
+.fp-circle-image-caption-deployment {
+    top: 80%;
+    left: 40%;
+}
+
+/* Responsive design for mobile */
+@media screen and (max-width: 600px) {
+    .fp-circle-main-text-body {
+        padding-left: 0;
+    }
+
+    .fp-circle-card {
+        flex-direction: column-reverse;
+    }
+
+    .fp-circle-text-container {
+        margin-right: 0px;
+        width: auto;
+    }
+
+    .fp-circle-image-container {
+        width: auto;
+        height: fit-content;
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .fp-circle-caption-ip-protection {
+        top: 49%;
+        left: 3%;
+    }
+
+    .fp-circle-image-caption-performance {
+        top: 20%;
+        left: 52%;
+    }
+
+    .fp-circle-image-caption-deployment {
+        top: 70%;
+        left: 40%;
+    }
+}
+

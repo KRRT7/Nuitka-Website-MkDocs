@@ -1,1 +1,116 @@
-site_name: My Docs
+site_name: Nuitka
+site_url: https://nuitka.net/
+site_description: Python Compiler
+site_author: Kay Hayen
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  logo: assets/images/nuitka-logo.svg
+  favicon: assets/images/nuitka-logo.png
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - toc.follow
+    - content.code.copy
+
+extra_css:
+  - stylesheets/pinwheel.css
+  - stylesheets/custom-header.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/kayhayen
+      name: Nuitka on Twitter
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/nuitka
+      name: Nuitka on Facebook
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@nuitka
+      name: Nuitka on Mastodon
+    - icon: fontawesome/brands/reddit
+      link: https://reddit.com/r/nuitka
+      name: Nuitka on Reddit
+    - icon: fontawesome/brands/github
+      link: https://github.com/Nuitka/Nuitka
+      name: Nuitka on GitHub
+
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+  - Free Download:
+    - Download: download/index.md
+  - User Guide:
+    - Command Line: user-guide/command-line.md
+    - Options: user-guide/options.md
+  - Developer Guide:
+    - Contributing: developer-guide/contributing.md
+    - Architecture: developer-guide/architecture.md
+  - About:
+    - Release Notes: about/release-notes.md
+    - License: about/license.md
