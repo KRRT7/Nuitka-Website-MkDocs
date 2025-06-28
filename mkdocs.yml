@@ -113,3 +113,34 @@ nav:
     - Use Cases: use-cases.md
     - Package Configuration: package-configuration.md
     - Common Issue Solutions: common-issue-solutions.md
+  - Support: support.md
+  - Contribute: 
+    - Overview: contribute.md
+    - Donations: donations.md
+    - Website Manual: website-manual.md
+    - Developer Manual: developer-manual.md
+    - API Documentation: api-doc.md
+  - Commercial Users:
+    - Overview: commercial.md
+    - Purchase: commercial/purchase.md
+    - Reseller Information: commercial/resellers.md
+    - Nuitka VM: commercial/nuitka-vm.md
+  - News and Blog:
+    - Blog: blog.md
+    - Release Information:
+      - Overview: changelog.md
+      - Current Release: changelog/current.md
+      - Roadmap: changelog/roadmap.md
+      - Next Release: changelog/next.md
+      - Version 2.x: changelog/changelog-2x.md
+      - Version 1.x: changelog/changelog-1x.md
+      - Version 0.x: changelog/changelog-0x.md
+    - Streaming: streaming.md
+    - News:
+      - All In With Nuitka: news/all-in-with-nuitka.md
+      - Nuitka Release 2.7: news/nuitka-release-27.md
+  - Other:
+    - Credits: credits.md
+    - Impressum: impressum.md
+    - PySide2 Support: other/pyside2-support.md
+    - PyQt5 Support: other/pyqt5-support.md
