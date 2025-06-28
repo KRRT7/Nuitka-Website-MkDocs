@@ -7,7 +7,7 @@ theme:
   name: material
   custom_dir: docs/overrides
   logo: assets/images/nuitka-logo.svg
-  favicon: assets/images/nuitka-logo.png
+  favicon: assets/images/nuitka-logo.svg
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
