@@ -101,4 +101,6 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-# nav:
+nav:
+  - Home: index.md
+  - Download: download.md
