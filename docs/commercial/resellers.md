@@ -1,79 +1,124 @@
-# Reseller Reference Page
+# Reseller Information
 
-**Welcome, Resellers!**
+Welcome to the **Nuitka Commercial Reseller Program**. We value our partnerships and have designed this comprehensive guide to support your success in bringing Nuitka's enterprise-grade Python compilation solutions to your customers.
 
-We appreciate your partnership in bringing our products to customers. This page is designed to be a quick reference for frequently asked questions and processes.
+!!! success "Partnership Welcome"
+    Thank you for joining our reseller network. This page contains everything you need to effectively sell and support Nuitka Commercial products.
 
-!!! info "Partnership Program"
-    Thank you for your interest in reselling Nuitka Commercial products. This page contains all the essential information you need.
+## :material-package-variant: Available Products
 
-## :material-frequently-asked-questions: Common Questions
+We offer two premium Nuitka Commercial packages designed for different enterprise needs. Each package provides comprehensive Python compilation solutions with varying levels of support and features.
 
-### What licenses are available for resale and what are their prices?
+<div class="grid cards" markdown>
 
-We offer the following licenses for resale:
+-   :material-package: **Nuitka Full Package**
 
-=== "Nuitka Full Package"
+    ---
 
-    **400 EUR**
+    **€400 per year**
     
-    [Purchase Link for Resellers](https://buy.stripe.com/5kAeXC1rM0bO6nCeV4){ .md-button target="_blank" rel="noopener" }
+    **Target Market:** Growing organizations and development teams
     
-    Allows payment via credit card, Stripe, and more methods.
-
-=== "Nuitka Sponsor"
-
-    **1000 EUR**
+    **Key Features:**
+    - Complete Nuitka Commercial feature set
+    - Priority technical support
+    - Enhanced communication channels
+    - Performance optimization assistance
     
-    [Purchase Link for Resellers](https://buy.stripe.com/aEU16M2vQ6AcdQ46oz){ .md-button target="_blank" rel="noopener" }
+    **Customer Value:** Professional Python compilation with enterprise support at an accessible price point.
     
-    Upgrading to this license guarantees customers the absolute best and most immediate support possible.
+    [Reseller Purchase Link](https://buy.stripe.com/5kAeXC1rM0bO6nCeV4){ .md-button .md-button--primary target="_blank" rel="noopener" }
 
-!!! warning "No Reseller Discounts"
-    Please note that there are no discounts available for resellers.
+-   :material-crown: **Nuitka Enterprise Sponsor**
 
-### How do I place an order?
+    ---
 
-You can place an order anytime via the links above. The price will remain throughout your offer process. Should a price change between the time you made an offer to the end customer and them accepting it and your attempt to execute it, we will give you the old price.
+    **€1,000 per year**
+    
+    **Target Market:** Large enterprises with mission-critical applications
+    
+    **Key Features:**
+    - Everything in Full Package
+    - Roadmap influence and feature prioritization
+    - Direct developer access
+    - Enterprise SLA with guaranteed response times
+    - Critical use case implementation priority
+    
+    **Customer Value:** Maximum support and influence for organizations that depend on Nuitka for core operations.
+    
+    [Reseller Purchase Link](https://buy.stripe.com/aEU16M2vQ6AcdQ46oz){ .md-button .md-button--primary target="_blank" rel="noopener" }
 
-### Do subscriptions automatically renew?
+</div>
 
-The links given are for subscriptions that do **not** automatically re-new. As the reseller, you are supposed to get in contact with the end customer at the end of their one year term and make an offer for renewal.
+!!! info "Pricing Information"
+    - **No reseller discounts** are available
+    - Prices are fixed in EUR and remain stable throughout your sales process
+    - All payments processed securely through Stripe
+    - Multiple payment methods accepted (credit card, bank transfer, SEPA)
 
-We will also inform them, and cancel their access if this process fails.
+---
 
-### What is your return policy?
+## :material-chart-line: Sales Guidance
 
-**All sales are final.** We do not offer returns or refunds.
+### **Nuitka Full Package** - Recommended for:
+- **Small to medium development teams** (5-50 developers)
+- **Growing companies** adopting Python compilation
+- **Organizations** needing reliable commercial support
+- **Projects** requiring IP protection without maximum urgency
 
-### What marketing materials are available to me?
+### **Nuitka Enterprise Sponsor** - Recommended for:
+- **Large enterprises** with Python-dependent operations
+- **Organizations** needing guaranteed response times
+- **Companies** wanting to influence product roadmap
+- **Mission-critical applications** requiring immediate support
 
-Here are some marketing materials that you can use to promote our products:
+---
 
-- **[Nuitka Commercial Features](https://nuitka.net/doc/commercial.html){ target="_blank" rel="noopener" }**
+## :material-frequently-asked-questions: Reseller FAQ
 
-### How is the product delivered to the customer?
+??? question "How do I place an order?"
+    
+    You can place an order anytime via the links above. The price will remain throughout your offer process. Should a price change between the time you made an offer to the end customer and them accepting it and your attempt to execute it, we will give you the old price.
 
-The product is delivered digitally directly to the customer. They will receive:
+??? question "Do subscriptions automatically renew?"
+    
+    The links given are for subscriptions that do **not** automatically re-new. As the reseller, you are supposed to get in contact with the end customer at the end of their one year term and make an offer for renewal.
+    
+    We will also inform them, and cancel their access if this process fails.
 
-- Access to the Nuitka Commercial repository
-- Direct support via email
+??? question "What is your return policy?"
+    
+    **All sales are final.** We do not offer returns or refunds.
 
-### Do end customers need to sign any contracts?
+??? question "What marketing materials are available to me?"
+    
+    Here are some marketing materials that you can use to promote our products:
+    
+    - **[Nuitka Commercial Features](https://nuitka.net/doc/commercial.html){ target="_blank" rel="noopener" }**
+    - **[Logo files](https://nuitka.net/doc/images/Nuitka-Logo-Horizontal.png){ target="_blank" rel="noopener" }**
 
-**No**, end customers do not need to sign any contracts.
+??? question "How is the product delivered to the customer?"
+    
+    The product is delivered digitally directly to the customer. They will receive:
+    
+    - Access to the Nuitka Commercial repository
+    - Direct support via email
 
-### When will invoices be delivered?
+??? question "Do end customers need to sign any contracts?"
+    
+    **No**, end customers do not need to sign any contracts.
 
-Invoices will be delivered **after purchase**.
+??? question "When will invoices be delivered?"
+    
+    Invoices will be delivered **after purchase**.
 
-### When will the product be delivered?
+??? question "When will the product be delivered?"
+    
+    The product will be delivered **after purchase only**.
 
-The product will be delivered **after purchase only**.
-
-### Are there any trials available?
-
-**No**, we do not offer trials at this time.
+??? question "Are there any trials available?"
+    
+    **No**, we do not offer trials at this time.
 
 ## :material-book-open: Additional Resources
 
