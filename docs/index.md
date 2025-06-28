@@ -16,29 +16,27 @@ Welcome to [Nuitka](https://github.com/Nuitka/Nuitka) - the Python compiler that
 
 [Get Started](#){ .md-button .md-button--primary } [Download](#){ .md-button }
 
-!!! note "Key Benefits"
+<div class="grid cards" markdown>
 
-    <div class="grid cards" markdown>
-    
-    -   :material-shield-check:{ .lg .middle .blue } **IP Protection**
-    
-        ---
-    
-        Compile your source code for security and protect your intellectual property.
-    
-    -   :material-rocket-launch:{ .lg .middle .orange } **Performance** 
-    
-        ---
-    
-        Boost your program runtime and launch performance significantly.
-    
-    -   :material-package-variant:{ .lg .middle .green } **Deployment**
-    
-        ---
-    
-        Hassle-free Python deployment with standalone distributions.
-    
-    </div>
+-   :material-shield-check:{ .lg .middle } **IP Protection**
+
+    ---
+
+    Compile your source code for security and protect your intellectual property.
+
+-   :material-rocket-launch:{ .lg .middle } **Performance**
+
+    ---
+
+    Boost your program runtime and launch performance significantly.
+
+-   :material-package-variant:{ .lg .middle } **Deployment**
+
+    ---
+
+    Hassle-free Python deployment with standalone distributions.
+
+</div>
 
 ## What is Nuitka?
 
