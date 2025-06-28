@@ -104,3 +104,12 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Download: download.md
+  - User Documentation:
+    - Overview: user-documentation.md
+    - User Manual: user-manual.md
+    - 'Tutorial: Setup and Build': tutorial-setup-and-build.md
+    - Tips: tips.md
+    - Performance: performance.md
+    - Use Cases: use-cases.md
+    - Package Configuration: package-configuration.md
+    - Common Issue Solutions: common-issue-solutions.md

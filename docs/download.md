@@ -11,13 +11,13 @@
 
 The standard edition bundles your code, dependencies and data into a single executable if you want. It also does acceleration, just running faster in the same environment, and can produce extension modules as well. It is freely distributed under the Apache license.
 
-[Get Nuitka Standard](/download/)
+[Get Nuitka Standard](#installation-methods)
 
 ## Nuitka Commercial
 
 The commercial edition additionally protects your code, data and outputs, so that users of the executable cannot access these. This a private repository of plugins that you pay to get access to. Additionally, you can purchase priority support.
 
-[Learn more about Nuitka commercial](/commercial/)
+Learn more about Nuitka commercial
 
 The current release is Nuitka {{ nuitka_version }}. Stable releases are supported with hot fixes, indicated by the last of the 4 digits.
 
